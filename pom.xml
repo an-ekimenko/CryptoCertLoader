@@ -10,7 +10,16 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <lib.dir>dependencies</lib.dir>
     </properties>
-  
+    
+    <dependencies>
+        <!-- Log4j2 API interfaces -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>3.0.0-beta2</version> 
+        </dependency>
+  	</dependencies>
+    
     <build>
         <plugins>
             <!-- This plugin will copy the dependencies of our library [if they appear] 

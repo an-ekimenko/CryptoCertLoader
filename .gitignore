@@ -10,3 +10,5 @@ logs/
 .classpath
 .settings/
 .factorypath
+/target
+/target
